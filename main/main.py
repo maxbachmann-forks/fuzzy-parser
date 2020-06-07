@@ -1,5 +1,4 @@
-from fuzzywuzzy import fuzz
-from fuzzywuzzy import process
+from rapidfuzz import process, fuzz
 import argparse
 from engine.tokenizer import Tokenizer
 
